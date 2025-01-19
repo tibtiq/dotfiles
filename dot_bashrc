@@ -23,4 +23,4 @@ alias ls='exa -lah'
 alias ll='exa -lah'
 alias l='exa -lah'
 
-eval "$(zoxide init bash)"
+eval "$(zoxide init --cmd cd bash)"
