@@ -24,4 +24,6 @@ alias ll='exa -lah'
 alias l='exa -lah'
 alias tree='exa --tree'
 
+alias cat='bat'
+
 eval "$(zoxide init --cmd cd bash)"
