@@ -16,6 +16,13 @@ fi
 REPO_URL=$1
 REPO_NAME=$(basename -s .git "$REPO_URL")
 
+# Validate the repo URL using git ls-remote
+git ls-remote "$REPO_URL" &>/dev/null
+if [ $? -ne 0 ]; then
+  echo "Error: Invalid repository URL or unable to access the repository."
+  return
+fi
+
 # Clone the repo as a bare repository to determine the default branch
 git clone --bare "$REPO_URL" "$REPO_NAME.git"
 cd "$REPO_NAME.git" || exit 1
