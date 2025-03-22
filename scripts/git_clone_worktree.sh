@@ -9,7 +9,7 @@
 
 # Check if the repo URL is provided
 if [ -z "$1" ]; then
-  echo "Usage: $0 <repo-url>"
+  echo "Usage: $gcw <repo-url>"
   return
 fi
 
