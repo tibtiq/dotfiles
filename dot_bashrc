@@ -22,6 +22,7 @@ alias ls='exa -lah'
 alias ll='exa -lah'
 alias l='exa -lah'
 alias tree='exa --tree'
+alias gcw='source ~/.local/share/chezmoi/scripts/git_clone_worktree.sh'
 alias cat='bat'
 
 eval "$(zoxide init --cmd cd bash)"
