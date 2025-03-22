@@ -18,7 +18,6 @@
 # alias mv='mv -i
 export PATH="$HOME/.local/bin:$PATH"
 
-# exa
 alias ls='exa -lah'
 alias ll='exa -lah'
 alias l='exa -lah'
