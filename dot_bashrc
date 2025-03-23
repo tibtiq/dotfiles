@@ -26,5 +26,6 @@ alias gcw='source ~/.local/share/chezmoi/scripts/git_clone_worktree.sh'
 alias cat='bat'
 alias gs='git status'
 alias gl='git log'
+alias lg='lazygit'
 
 eval "$(zoxide init --cmd cd bash)"
