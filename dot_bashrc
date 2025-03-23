@@ -30,5 +30,6 @@ alias gl='git log'
 alias lg='lazygit'
 alias vim='nvim'
 alias v='nvim'
+alias code='cd ~/code'
 
 eval "$(zoxide init --cmd cd bash)"
