@@ -17,6 +17,7 @@
 # alias cp='cp -i'
 # alias mv='mv -i
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
 alias ls='eza -lah'
 alias ll='eza -lah'
@@ -27,5 +28,7 @@ alias cat='bat'
 alias gs='git status'
 alias gl='git log'
 alias lg='lazygit'
+alias vim='nvim'
+alias v='nvim'
 
 eval "$(zoxide init --cmd cd bash)"
